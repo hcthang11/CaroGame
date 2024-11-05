@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.GameActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/btn_createRoom"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_create_room" />
+
+        <TextView
+            android:id="@+id/btn_findRoom"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_find_room" />
+
+        <TextView
+            android:id="@+id/btn_localPlay"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_play" />
+
+        <TextView
+            android:id="@+id/btn_setting"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_modify" />
+
+        <TextView
+            android:id="@+id/btn_quit"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_quit" />
+
+    </LinearLayout>
+</LinearLayout>
